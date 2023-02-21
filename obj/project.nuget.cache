@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "dgSpecHash": "aiHos9lMzcqM3e+f4LLJ2QYYS06SdgR84mOy6Bxgjc+9leiHzgCmrrzkw9IAdfDwetVPD576RhwWWmr0u0rSQQ==",
+  "success": false,
+  "projectFilePath": "C:\\scripts\\ConvertToZendesk\\ConvertToZendesk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jerome.magnier\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.3\\microsoft.aspnetcore.components.forms.7.0.3.nupkg.sha512",
+    "C:\\Users\\jerome.magnier\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\jerome.magnier\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\jerome.magnier\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\jerome.magnier\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\jerome.magnier\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\jerome.magnier\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\jerome.magnier\\.nuget\\packages\\system.windows.forms.ribbon35\\3.5.8\\system.windows.forms.ribbon35.3.5.8.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'System.Windows.Forms.Ribbon35 3.5.8' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net6.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "System.Windows.Forms.Ribbon35",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Le package Microsoft.AspNetCore.Components.Forms 7.0.3 n'est pas compatible avec net6.0 (.NETCoreApp,Version=v6.0). Le package Microsoft.AspNetCore.Components.Forms 7.0.3 prend en charge : net7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Microsoft.AspNetCore.Components.Forms",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
